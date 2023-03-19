@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.mainContainer {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.fruitContainer {
+  background-color: #ffffff;
+  height: 75vh;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+span {
+  color: #ffd569;
+}
+
+.imgUrl {
+  height: 250px;
+  width: 250px;
+}
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+.mango {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.banana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.btn {
+  margin-top: 1rem;
+  height: 2rem;
+  width: 6.8rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: 0px solid;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 965px) {
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+  }
+  .fruitContainer {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+  }
+}
+button:hover {
+  cursor: pointer;
+  outline: none;
+}
